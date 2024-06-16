@@ -1,0 +1,22 @@
+/* This file assigns styles using @extend */
+
+// Define a mixin to set font-size and extend .info
+@mixin info-style {
+  @extend .info;
+  font-size: 12px;
+}
+
+// Apply styles using @extend
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @include info-style;
+  color: #00FF00;
+}
+
+.warning {
+  @include info-style;
+  color: #FF0000;
+}

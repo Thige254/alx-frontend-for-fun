@@ -1,0 +1,13 @@
+/* This file assigns font sizes to body and h1 tags using nested declarations */
+
+body {
+  font-size: 14px;
+
+  h1 {
+    font-size: 16px;
+
+    &.smaller {
+      font-size: 12px;
+    }
+  }
+}
