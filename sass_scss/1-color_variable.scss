@@ -1,0 +1,14 @@
+/* This file assigns the text color #3D3D3D to the body and p tags using a Sass variable */
+
+// Define the color variable
+$main-text-color: #3D3D3D;
+
+// Apply the color to the body tag
+body {
+  color: $main-text-color;
+}
+
+// Apply the color to the p tag
+p {
+  color: $main-text-color;
+}
